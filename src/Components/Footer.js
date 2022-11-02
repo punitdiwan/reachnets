@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -10,7 +11,7 @@ function Footer() {
           <p>
             Let's create amazing results together. Our team of experts is standing by. Whatever it is, let’s talk!
           </p>
-          <a href=''>CONTACT US</a>
+          <Link to='/contactus'>CONTACT US</Link>
         </div>
       </div>
     </div>

@@ -1,11 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import Header from './Header'
 
 
 const About = () => {
-  const[show,setShow] = useState(false)
+//   const[show,setShow] = useState(false)
   return (
     <>
     <Header/>
@@ -238,7 +239,7 @@ const About = () => {
         <div className="join-text">
             <h1>Join The Reach MBN Family!</h1>
             <p>Dust off that resume and send us some information about who you are, what you’re great at, and how you may fit in with our team. We’re excited to meet you!</p>
-            <a href="/">CURRENT OPEN POSITIONS </a>
+            <Link to="/joinus">CURRENT OPEN POSITIONS </Link>
         </div>
     </div>
 

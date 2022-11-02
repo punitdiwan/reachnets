@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+// import { Link } from 'react-router-dom'
 import Header from './Header'
 
 const Joinus = () => {
-    const[show,setShow] = useState(false)
+    // const[show,setShow] = useState(false)
 
   return (
     <>

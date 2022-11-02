@@ -462,13 +462,15 @@ html{
 .capabilities-col img{
     width: 160px;
 }
+.capabilities-col a{
+    text-decoration: none;
+}
 .capabilities-col h1{
     color: #b80019;
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
 }
-
 .cap-btn{
     margin-top: 40px;
     font-size: 18px;
@@ -527,7 +529,6 @@ html{
     }
 
 }
-
 
 /* --------------------about-------------------- */
 
@@ -625,7 +626,7 @@ html{
 
 .footer{
     width: 100vw;
-    height: 93vh;
+    height: 94vh;
     margin: auto;
     background-color: #770202;
 }
@@ -715,7 +716,7 @@ html{
     }
 }
 
-/* --------------------services----------------------- */
+/* --------------------services--------------------- */
 
 .header-con .ser-font{
     font-size: 18px;
@@ -2191,15 +2192,15 @@ label{
     }
 }
 
-
 .touch-today{
     width: 80vw;
     margin: auto;
-    padding: 60px 0;
+   margin-top: 60px;
+   margin-bottom: 60px;
 }
 
 .btn-touch{
-  margin-bottom: 80px;
+  margin-bottom: 110px;
   text-align: center;
 }
 .btn-touch a{
@@ -2223,12 +2224,11 @@ label{
 
 .touch-content{
     text-align: center;
-    margin-bottom: 60px;
-    margin-top: 120px;
 }
 .touch-content h2{
     color: #95b8c5;
    font-size: 36px;
+   margin-bottom: 70px;
 }
 
 .touch-row {
@@ -2237,12 +2237,15 @@ label{
  align-items: center;
 }
 .touch-col{
-text-align: center;
+  text-align: center;
 }
 .touch-col a img{
     width: 120px;
     margin: auto;
+    opacity: 0.7;
+   
 }
+
 .touch-col a{
    text-decoration: none;
 }
@@ -2250,6 +2253,13 @@ text-align: center;
 .touch-col a h3{
     color: #b80019;
     margin-top: 14px ;
+}
+.touch-col a h3:hover{
+    color: #19263f;
+}
+
+.touch-col img:hover{
+    opacity: 1;
 }
 
 @media (max-width:800px) {
@@ -2259,6 +2269,7 @@ text-align: center;
     }
     .touch-content h2{
        font-size: 24px;
+       margin-bottom: 0px;
     }
     .touch-row{
         flex-direction: column;
@@ -2285,6 +2296,14 @@ text-align: center;
         width: 70px;
     }
 }
+
+.touch-col .active img{
+  opacity: 0.5;
+
+}
+.touch-col .active h3{
+    color: #95b8c5;
+  }
 
 
 /* ---------------- affiliate services -------- */

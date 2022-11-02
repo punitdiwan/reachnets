@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
-import Footer from './Footer'
+import { Link } from 'react-router-dom'
+
 
 const Header = () => {
     const[show,setShow] =useState(false)
