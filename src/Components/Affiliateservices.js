@@ -1,10 +1,12 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
+import Capabilities from './Capabilities'
 
 const Affiliateservices = () => {
 
-    const[show,setShow] = useState(false)
+    // const[show,setShow] = useState(false)
+
   return (
     <>
        <Header/>
@@ -13,61 +15,6 @@ const Affiliateservices = () => {
         <div className="svg"></div>
       </div> */}
 
-    {/* <div className="dia-header">
-      <div className="logo">
-        <img src="img/diablo-logo-removebg-preview.png" alt="logo not found" />
-        <span><b>diablo</b>media</span>
-        </div>
-      </div>
-
-       <div className='navbar'>
-       <i className="menu-icon ri-menu-3-line" onClick={()=>setShow(true)}></i>
-       </div>
-
-     {
-        show ?  (<div className="navbar" id="nav-bar">
-        <div className="menu-bar">
-          <div>
-            <h4>NAVIGATE</h4>
-            <br />
-            <br />
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Join Us</a></li>
-            <li><a href="/">Contact</a></li>
-          </div>
-        </div>
-        <div className="connect-bar">
-          <div>
-            <h4>CONNECT</h4>
-            <br />
-            <br />
-            <p>
-              3001 Bringhton Blvd.<br />
-              Suite 769<br />Denver, CO 80216<br />USA
-            </p>
-            <br />
-            <p>+1 3033054052</p>
-            <br />
-            <p>hello@diablomedia.com</p>
-            <br />
-
-            <div className="contact-icon">
-              <i className="ri-linkedin-box-fill"></i>
-              <i className="ri-facebook-box-fill"></i>
-              <i className="ri-instagram-fill"></i>
-              <i className="ri-twitter-fill"></i>
-            </div>
-            <br />
-            <button>PUBLISHERS</button>
-          </div>
-        </div>
-        <i className="close-icon ri-close-line" onClick={()=>setShow(false)}></i>
-      </div>) : ''
-     } */}
-
-  
 
     <div className="header-con">
         <h1 className="ser-font">SERVICES</h1>
@@ -140,7 +87,7 @@ const Affiliateservices = () => {
 
             <div className="affiliates-h aff-f">
               <p>
-                Whether providing click to conversion data, landing page optimizations, creative recommendations, growth strategies, or even simply making sure affiliates are paid on time, Diablo handles the day-to-day activities of managing your affiliate program.
+                Whether providing click to conversion data, landing page optimizations, creative recommendations, growth strategies, or even simply making sure affiliates are paid on time, Reach MBN handles the day-to-day activities of managing your affiliate program.
               </p>
               <p>We have spent years developing trusted relationships with our network partners. This virtually eliminates fraud and reduces the cost of customer acquisition due to the efficiencies we’ve built. This is why so many of our partnerships last for years and years.</p>
               <h1>
@@ -153,7 +100,7 @@ const Affiliateservices = () => {
 
      
       <div className="our-promise">
-        <p>At Diablo Media, we promise our advertisers:</p>
+        <p>At Reach MBN, we promise our advertisers:</p>
   
         <div className="promise-row">
           <div className="promise-col">
@@ -193,7 +140,7 @@ const Affiliateservices = () => {
           </div>
           <div className="testimonial-col">
             <div className="test-content">
-              <em>The Team at Diablo has helped us build successful six figure campaigns for top brands and in addition to being great to work with, being able to drive traffic they have helped us innovate and create new offers that have been very successful for us and our publishers.</em>
+              <em>The Team at Reach MBN has helped us build successful six figure campaigns for top brands and in addition to being great to work with, being able to drive traffic they have helped us innovate and create new offers that have been very successful for us and our publishers.</em>
               <p>Bill R.</p>
             </div>
           </div>
@@ -204,7 +151,7 @@ const Affiliateservices = () => {
       <div className="digital">
         <div className="digital-row">
           <div className="digital-col strategy-col">
-            <h1>What makes Diablo Media different?</h1>
+            <h1>What makes Reach MBN different?</h1>
             <p>
               Built from the ground up, we have continually evolved with the industry. Our proprietary tracking platform offers accurate real-time analytics and reporting, as well as a full API for accessing important data and marketing assets. With total control over our proprietary technologies, we provide greater stability and zero restrictions on campaign integration. We can publish and test multiple campaign iterations side by side without limiting custom tracking and reporting.
             </p>
@@ -218,35 +165,15 @@ const Affiliateservices = () => {
 
   
       <div className="touch-today">
-        <div className="btn-touch">
-          <a href="/">GET IN TOUCH TODAY</a>
-        </div>
-        <div className="touch-content">
-          <h2>Learn What Other Services Diablo Has to Offer</h2>
-        </div>
-        <div className="touch-row">
-          <div className="touch-col">
-            <a href="/"> <img src="img/Data-Management.svg" alt="" /></a>
-            <a href="/"><h3>Data Management</h3></a>
-          </div>
-          <div className="touch-col">
-            <a href="/"> <img src="img/affiliate-services.svg" alt="" /></a>
-            <a  href="/"><h3>Affiliate Services</h3> </a>
-          </div>
-          <div className="touch-col">
-            <a href="/"> <img src="img/Service-Legal-Services.svg" alt="" /> </a>
-            <a href="/"><h3>Legal Marketing</h3> </a>
-          </div>
-          <div className="touch-col">
-            <a href="/"> <img src="img/Service-Lead-Generation.svg" alt="" /></a>
-            <a  href="/"><h3>Lead Generation</h3> </a>
-          </div>
-          <div className="touch-col">
-            <a href="/"> <img src="img/Service-Media-Buying.svg" alt="" /></a>
-            <a href="/"><h3>Media Buying</h3> </a>
-          </div>
-        </div>
+      <div className="btn-touch">
+        <a href="/">GET IN TOUCH TODAY</a>
       </div>
+      <div className="touch-content">
+        <h2>Learn What Other Services Reach MBN Has to Offer</h2>
+      </div>
+      </div>
+
+     <Capabilities/>
   
   <Footer/>
 

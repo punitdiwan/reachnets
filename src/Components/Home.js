@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react'
+import {NavLink,Link } from 'react-router-dom'
 import Footer from './Footer'
 import Header from './Header'
 
 const Home = () => {
-    const[show,setShow] = useState(false)
+
+    // const[show,setShow] = useState(false)
 
   return (
     <>
@@ -126,31 +127,40 @@ const Home = () => {
 
       <div className="capabilities-row">
         <div className="capabilities-col">
-          <img src="img/Data-Management.svg" alt="" />
-          <h1>Data Management</h1>
+          <NavLink to='/dataManagment'><img src="img/Data-Management.svg" alt="" /></NavLink>
+         <NavLink to='/dataManagment'><h1>Data Management</h1></NavLink>
         </div>
+        
         <div className="capabilities-col">
-          <img src="img/affiliate-services.svg" alt="" />
-          <h1>Affiliate Services</h1>
+        <NavLink to='/affiliateservice'><img src="img/affiliate-services.svg" alt="" /></NavLink>
+          <NavLink to='/affiliateservice'><h1>Affiliate Services</h1></NavLink>
+        </div>
+
+       
+        <div className="capabilities-col">
+        <NavLink to='/legalmarketing'><img src="img/Service-Legal-Services.svg" alt="" /></NavLink>
+        <NavLink to='/legalmarketing'><h1>Legal Marketing</h1></NavLink>
+          
         </div>
 
         <div className="capabilities-col">
-          <img src="img/Service-Legal-Services.svg" alt="" />
-          <h1>Legal Marketing</h1>
+        <NavLink to='/leadgeneration'> <img src="img/Service-Lead-Generation.svg" alt="" /></NavLink>
+          <NavLink to='/leadgeneration'><h1>Lead Generation</h1></NavLink>
         </div>
 
         <div className="capabilities-col">
-          <img src="img/Service-Lead-Generation.svg" alt="" />
-          <h1>Lead Generation</h1>
-        </div>
-
-        <div className="capabilities-col">
-          <img src="img/Service-Media-Buying.svg" alt="" />
-          <h1>Media Buying</h1>
+        <NavLink to='/mediabuying'><img src="img/Service-Media-Buying.svg" alt="" /></NavLink>
+          <NavLink to='/mediabuying'><h1>Media Buying</h1></NavLink>
+          
         </div>
       </div>
-      <button className="cap-btn">SEE THE REACH MBN DIFFERENCE</button>
+      <Link to='/services'><button  className="cap-btn">SEE THE REACH MBN DIFFERENCE</button> </Link>
     </section>
+
+
+
+
+    
 
     <div className="about">
     <div className="about-row">
@@ -163,7 +173,7 @@ const Home = () => {
           Learn more about our values and history, get to know the people
           behind Reach MBN, and discover how you can join our team!
         </p>
-        <a href=''>MORE ABOUT US</a>
+        <Link to='/about'>MORE ABOUT US</Link>
       </div>
       <div className="about-col">
         <img src="https://pbs.twimg.com/media/FdmeQxcWYAUdi1Q?format=jpg&name=large" alt="" />

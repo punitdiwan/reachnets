@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Footer from './Footer'
 import Header from './Header'
+import Capabilities from './Capabilities'
 
 const Legalmarketing = () => {
-    const[show,setShow] = useState(false)
+    // const[show,setShow] = useState(false)
   return (
     <>
 
@@ -13,60 +14,7 @@ const Legalmarketing = () => {
       <div className="svg"></div>
     </div> */}
 
-    {/* <div className="dia-header">
-      <div className="logo">
-        <img src="img/diablo-logo-removebg-preview.png" alt="logo not found" />
-        <span><b>diablo</b>media</span>
-        </div>
-      </div>
 
-       <div className='navbar'>
-       <i className="menu-icon ri-menu-3-line" onClick={()=>setShow(true)}></i>
-       </div>
-
-     {
-        show ?  (<div className="navbar" id="nav-bar">
-        <div className="menu-bar">
-          <div>
-            <h4>NAVIGATE</h4>
-            <br />
-            <br />
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Services</a></li>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Join Us</a></li>
-            <li><a href="/">Contact</a></li>
-          </div>
-        </div>
-        <div className="connect-bar">
-          <div>
-            <h4>CONNECT</h4>
-            <br />
-            <br />
-            <p>
-              3001 Bringhton Blvd.<br />
-              Suite 769<br />Denver, CO 80216<br />USA
-            </p>
-            <br />
-            <p>+1 3033054052</p>
-            <br />
-            <p>hello@diablomedia.com</p>
-            <br />
-
-            <div className="contact-icon">
-              <i className="ri-linkedin-box-fill"></i>
-              <i className="ri-facebook-box-fill"></i>
-              <i className="ri-instagram-fill"></i>
-              <i className="ri-twitter-fill"></i>
-            </div>
-            <br />
-            <button>PUBLISHERS</button>
-          </div>
-        </div>
-        <i className="close-icon ri-close-line" onClick={()=>setShow(false)}></i>
-      </div>) : ''
-     }
-     */}
 
 
     <div className="header-con">
@@ -83,7 +31,7 @@ const Legalmarketing = () => {
       <div className="growth">
         <div className="growth-flex">
           <p>
-            Founded in 2013, Law Scout, a wholly-owned subsidiary of Diablo Media, has effectively expanded to meet our legal clients’ needs. Our Facebook marketing expertise will provide the necessary insights to increase conversions and drive ROI.
+            Founded in 2013, Law Scout, a wholly-owned subsidiary of Reach MBN, has effectively expanded to meet our legal clients’ needs. Our Facebook marketing expertise will provide the necessary insights to increase conversions and drive ROI.
           </p>
         </div>
       </div>
@@ -213,39 +161,18 @@ const Legalmarketing = () => {
       </div>
 
 
-
       <div className="touch-today">
-        <div className="btn-touch">
-          <a href="/">GET IN TOUCH TODAY</a>
-        </div>
-        <div className="touch-content">
-          <h2>Learn What Other Services Diablo Has to Offer</h2>
-        </div>
-        <div className="touch-row">
-          <div className="touch-col">
-            <a href="/"> <img src="img/Data-Management.svg" alt="" /></a>
-            <a href="/"><h3>Data Management</h3></a>
-          </div>
-          <div className="touch-col">
-            <a href="/"> <img src="img/affiliate-services.svg" alt="" /></a>
-            <a  href="/"><h3>Affiliate Services</h3> </a>
-          </div>
-          <div className="touch-col">
-            <a href="/"> <img src="img/Service-Legal-Services.svg" alt="" /> </a>
-            <a href="/"><h3>Legal Marketing</h3> </a>
-          </div>
-          <div className="touch-col">
-            <a href="/"> <img src="img/Service-Lead-Generation.svg" alt="" /></a>
-            <a  href="/"><h3>Lead Generation</h3> </a>
-          </div>
-          <div className="touch-col">
-            <a href="/"> <img src="img/Service-Media-Buying.svg" alt="" /></a>
-            <a href="/"><h3>Media Buying</h3> </a>
-          </div>
-        </div>
+      <div className="btn-touch">
+        <a href="/">GET IN TOUCH TODAY</a>
       </div>
-  
-  
+      <div className="touch-content">
+        <h2>Learn What Other Services Reach MBN Has to Offer</h2>
+      </div>
+      </div>
+
+     
+     <Capabilities/>
+    
       <Footer/>
 
     </>

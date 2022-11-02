@@ -1,10 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import Header from './Header'
 
 const Services = () => {
-    const[show,setShow] = useState(false)
+    // const[show,setShow] = useState(false)
   return (
     <>
     <Header/>
@@ -145,7 +145,7 @@ const Services = () => {
               grow our clients businesses. We take data and turn it into a
               highly targeted asset.
             </p>
-            <div><a href="/">LEARN MORE</a></div>
+            <Link to="/dataManagment">LEARN MORE</Link>
           </div>
         </div>
 
@@ -155,8 +155,8 @@ const Services = () => {
             <p> Home grown exclusive offers Industry leading performance Competitive weekly payouts Dedicated Account Support White Label and iframe technology Real Time Stats
             </p>
             <div className="line-br">
-              <a href="/">FOR ADVERTISERS</a>
-              <a href="/">FOR PUBLISHERS</a>
+              <Link to="/affiliateservice">FOR ADVERTISERS</Link>
+              <Link to="/">FOR PUBLISHERS</Link>
             </div>
           </div>
           <div>
@@ -176,7 +176,7 @@ const Services = () => {
               Disability, Personal Injury, Workers Compensation, Motor Vehicle
               Accidents, and Mass Tort.
             </p>
-            <a href="/">LEARN MORE</a>
+            <Link to="/legalmarketing">LEARN MORE</Link>
           </div>
         </div>
 
@@ -186,7 +186,7 @@ const Services = () => {
             <p>
             Owned and Operated Brands Industry Leading Conversions Price Reject, CPF, Static buying Dedicated Account Support In House Data Analytics Homegrown Technology
             </p>
-            <a href="/">LEARN MORE</a>
+            <Link to="/leadgeneration">LEARN MORE</Link>
           </div>
           <div>
             <img src="img/Service-Lead-Generation.svg" alt="img note found" />
@@ -204,7 +204,7 @@ const Services = () => {
               message in front of your target audience, driving real action to
               make the most of your budget.
             </p>
-            <a href="/">LEARN MORE</a>
+            <Link  to="/mediabuying">LEARN MORE</Link>
           </div>
         </div>
       </div>
