@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Header = () => {
     const[show,setShow] =useState(false)
 
-    console.log("from state", show)
+    // console.log("from state", show)
     
   return (
     <>
@@ -43,13 +43,14 @@ const Header = () => {
             <br />
             <br />
             <p>
-              3001 Bringhton Blvd.<br />
-              Suite 769<br />Denver, CO 80216<br />USA
+              Haiderpur, Delhi<br />
+              <br />www.reachmbn.com
+              <br />customercare@reachmbn.com
             </p>
             <br/>
-            <p>+1 3033054052</p>
+            <p>+91-8929370027</p>
             <br/>
-            <p>hello@diablomedia.com</p>
+            <p>+91-9903451376</p>
             <br/>
 
             <div className="contact-icon">

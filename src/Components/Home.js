@@ -1,5 +1,5 @@
 import React from 'react'
-import {NavLink,Link } from 'react-router-dom'
+import {Link, NavLink } from 'react-router-dom'
 import Footer from './Footer'
 import Header from './Header'
 
@@ -16,66 +16,11 @@ const Home = () => {
      </div>    */}
 
 
-
-      {/* <div className="dia-header">
-       <div className="logo">
-        <img src="img/logo.png" alt="logo not found" />
-        </div> 
-    </div>
-
-    <div className='navbar'>
-       <i className="menu-icon ri-menu-3-line" onClick={()=>setShow(true)}></i>
-       </div>
-
-      {
-        show ? (<div className="navbar">
-        <div className="menu-bar">
-          <div>
-            <h4>NAVIGATE</h4>
-            <br />
-            <br />
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/joinus">Join Us</Link></li>
-            <li><Link to="/contactus">Contact</Link></li>
-          </div>
-        </div>
-        <div className="connect-bar">
-          <div>
-            <h4>CONNECT</h4>
-            <br />
-            <br />
-            <p>
-              3001 Bringhton Blvd.<br />
-              Suite 769<br />Denver, CO 80216<br />USA
-            </p>
-            <br/>
-            <p>+1 3033054052</p>
-            <br/>
-            <p>hello@diablomedia.com</p>
-            <br/>
-
-            <div className="contact-icon">
-              <i className="ri-linkedin-box-fill"></i>
-              <i className="ri-facebook-box-fill"></i>
-              <i className="ri-instagram-fill"></i>
-              <i className="ri-twitter-fill"></i>
-            </div>
-            <br/>
-            <button>PUBLISHERS</button>
-          </div>
-        </div>
-        <div className='navbar'> <i className="close-icon ri-close-line" onClick={()=>setShow(false)}  ></i>
-       </div>
-      </div>) : '' 
-      } */}
-    
-
-
-
-
-    <div className="header-con">
+    <div className="header-con"  
+    data-aos="fade-up"
+    data-aos-offset="500"
+    data-aos-easing="linear"
+     data-aos-duration="2000">
       <h1>Making Connections</h1>
       <h2 className="col-white">Delivering Results</h2>
       <p>
@@ -111,14 +56,21 @@ const Home = () => {
             get the job done.
           </p>
         </div>
-        <div className="create-col">
+        <div className="create-col" data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-offset="300"
+        data-aos-easing="linear">
           <img src="img/legal-col.svg" alt="" />
         </div>
       </div>
     </div>
 
 
-    <section className="capabilities">
+    <section className="capabilities" data-aos="fade-up"
+    data-aos-offset="200"
+     data-aos-duration="1000"
+     data-aos-anchor-placement="top-bottom"
+     data-aos-easing="linear">
       <p>CAPABILITIES</p>
       <h1>
         Delivering effective, data and technology-driven marketing services.
@@ -158,8 +110,6 @@ const Home = () => {
     </section>
 
 
-
-
     
 
     <div className="about">
@@ -173,15 +123,18 @@ const Home = () => {
           Learn more about our values and history, get to know the people
           behind Reach MBN, and discover how you can join our team!
         </p>
-        <Link to='/about'>MORE ABOUT US</Link>
+        <a href='/'>MORE ABOUT US</a>
       </div>
-      <div className="about-col">
+      <div className="about-col" data-aos="fade-left"
+        data-aos-duration="1000"
+        data-aos-easing="linear"
+        data-aos-offset="300">
         <img src="https://pbs.twimg.com/media/FdmeQxcWYAUdi1Q?format=jpg&name=large" alt="" />
       </div>
     </div>
   </div>
  
-      <Footer/>
+<Footer/>
 
     </>
   )

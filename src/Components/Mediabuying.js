@@ -17,7 +17,10 @@ const Mediabuying = () => {
 
 
 
-    <div className="header-con">
+    <div className="header-con"
+    data-aos="fade-up"
+    data-aos-easing="linear"
+     data-aos-duration="3000">
           <h1 className="ser-font">SERVICES</h1>
           <h2 className="col-white">Media Buying</h2>
           <p>Strategically planned, implemented & managed.</p>
@@ -41,7 +44,11 @@ const Mediabuying = () => {
                 Not only do we gain actionable insights from the right data, but we also work with our clients to get feedback on both what is and isn’t working to ensure our strategy stays aligned with their goals.
             </p>
           </div>
-          <div className="digital-col strategy-col" >
+          <div className="digital-col strategy-col" 
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-offset="100"
+          data-aos-easing="linear">
             <img src="img/Media-Strategy.svg" alt="" />
           </div>
         </div>
@@ -50,7 +57,11 @@ const Mediabuying = () => {
 
       <div className="data-monitor">
         <div className="data-monitor-row">
-          <div className="data-monitor-col">
+          <div className="data-monitor-col"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-offset="100"
+          data-aos-easing="linear">
             <img src="img/Media-Transparency.svg" alt="" />
           </div>
           <div className="data-monitor-col">
@@ -119,17 +130,7 @@ const Mediabuying = () => {
       </div>
 
 
-      <div className="touch-today">
-      <div className="btn-touch">
-        <a href="/">GET IN TOUCH TODAY</a>
-      </div>
-      <div className="touch-content">
-        <h2>Learn What Other Services Reach MBN Has to Offer</h2>
-      </div>
-      </div>
-
-      <Capabilities/>
-
+    <Capabilities/>
     <Footer/>
      
     </>

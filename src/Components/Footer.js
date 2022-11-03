@@ -1,11 +1,14 @@
 import React from 'react'
-import {Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
     <>
-    <div className="footer">
-      <div className="footer-row">
+    <div className="footer" >
+      <div className="footer-row"  data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="2000"
+     data-aos-offset="450">
         <div className="footer-col">
           <h1>Ready To Talk? Get In Touch!</h1>
           <p>
