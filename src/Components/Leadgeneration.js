@@ -18,7 +18,10 @@ const Leadgeneration = () => {
 
     
 
-    <div className="header-con">
+    <div className="header-con"
+    data-aos="fade-up"
+    data-aos-easing="linear"
+     data-aos-duration="3000">
         <h1 className="ser-font">SERVICES</h1>
         <h2 className="col-white">Lead Generation
       </h2>
@@ -49,7 +52,11 @@ const Leadgeneration = () => {
             <h1> Quality is everything.</h1>
             </div>
           </div>
-          <div className="digital-col strategy-col" >
+          <div className="digital-col strategy-col" 
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-offset="100"
+          data-aos-easing="linear">
             <img src="img/LeadGen-Quality.svg" alt="" />
           </div>
         </div>
@@ -59,7 +66,11 @@ const Leadgeneration = () => {
 
       <div className="data-monitor">
         <div className="data-monitor-row">
-          <div className="data-monitor-col">
+          <div className="data-monitor-col"
+          data-aos="fade-right"
+          data-aos-duration="1500"
+          data-aos-offset="100"
+          data-aos-easing="linear">
             <img src="img/LeadGen-Tailored.svg" alt="" />
           </div>
           <div className="data-monitor-col">
@@ -106,7 +117,11 @@ const Leadgeneration = () => {
             </p>
            
           </div>
-          <div className="digital-col">
+          <div className="digital-col"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-offset="100"
+          data-aos-easing="linear">
             <img src="img/LeadGen-Sort.svg" alt="" />
           </div>
         </div>
@@ -162,18 +177,9 @@ const Leadgeneration = () => {
       </div>
 
 
-
-      <div className="touch-today">
-      <div className="btn-touch">
-        <a href="/">GET IN TOUCH TODAY</a>
-      </div>
-      <div className="touch-content">
-        <h2>Learn What Other Services Reach MBN Has to Offer</h2>
-      </div>
-    </div>
-
-      <Capabilities/>  
-  
+    
+    
+    <Capabilities/> 
     <Footer/>
       
     </>

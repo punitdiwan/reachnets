@@ -15,66 +15,12 @@ const Joinus = () => {
     </div> */}
 
 
-{/* 
-       <div className="dia-header">
-      <div className="logo">
-        <img src="img/diablo-logo-removebg-preview.png" alt="logo not found" />
-        <span><b>diablo</b>media</span>
-        </div>
-      </div>
-
-
-       <div className='navbar'>
-       <i className="menu-icon ri-menu-3-line" onClick={()=>setShow(true)}></i>
-       </div>
-
-     {
-        show ? (<div className="navbar" id="nav-bar">
-        <div className="menu-bar">
-          <div>
-            <h4>NAVIGATE</h4>
-            <br />
-            <br />
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/joinus">Join Us</Link></li>
-            <li><Link to="/contactus">Contact</Link></li>
-          </div>
-        </div>
-        <div className="connect-bar">
-          <div>
-            <h4>CONNECT</h4>
-            <br />
-            <br />
-            <p>
-              3001 Bringhton Blvd.<br />
-              Suite 769<br />Denver, CO 80216<br />USA
-            </p>
-            <br />
-            <p>+1 3033054052</p>
-            <br />
-            <p>hello@diablomedia.com</p>
-            <br />
-
-            <div className="contact-icon">
-              <i className="ri-linkedin-box-fill"></i>
-              <i className="ri-facebook-box-fill"></i>
-              <i className="ri-instagram-fill"></i>
-              <i className="ri-twitter-fill"></i>
-            </div>
-            <br />
-            <button>PUBLISHERS</button>
-          </div>
-        </div>
-        <i className="close-icon ri-close-line" onClick={()=>setShow(false)}></i>
-      </div>) : ''
-     }
-    */}
-
-        <div className="header-con m-top">
+        <div className="header-con m-top"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+         data-aos-duration="3000">
           <h1 className="ser-font">CAREERS</h1>
-          <h2 className="col-white">join Diablo </h2>
+          <h2 className="col-white">join Reach MBN </h2>
         </div>
     
 
@@ -89,17 +35,25 @@ const Joinus = () => {
         <div className="fun-row">
           <div className="fun-col-1">
             <h1> We Are Fun to Work With, and Then Some</h1>
-            <p>At Diablo Media, our people are an important part of what drives our continued success as a data-driven marketing technology leader. We bring together the best and the brightest minds, and foster an entrepreneurial spirit that encourages innovation and collaboration.</p>
+            <p>At Reach MBN, our people are an important part of what drives our continued success as a data-driven marketing technology leader. We bring together the best and the brightest minds, and foster an entrepreneurial spirit that encourages innovation and collaboration.</p>
             <p>We offer competitive salaries and great benefits. However, our intrinsic motivation comes from passion, talent, and drive. From doing what we love, with people we respect, to learning and growing together.
             </p>
           </div>
-          <div className="fun-col-2">
+          <div className="fun-col-2"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-easing="linear">
             <img src="img/team-social.jpg" alt="" />
           </div>
         </div>
       </div>
 
-      <div className="work-remote">
+
+
+      <div className="work-remote"
+      data-aos="zoom-in-up"
+      data-aos-duration="1000"
+      data-aos-easing="linear">
         <div className="remote-row">
           <div className="remote-col remote-col-1">
             <div>
@@ -154,7 +108,55 @@ const Joinus = () => {
       </div>
 
 
-      <div className="testimonial">
+      <div className="reach-img">
+      <div className="reach-img-row">
+        <div className="reach-img-col"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        data-aos-offset="200">
+            <img src="img/diablo-RiNo-5k-2021.jpg" alt="" />
+          </div>
+        <div className="reach-img-col"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="300"
+          data-aos-offset="200">
+          <img src="img/image-71.png" alt="" />
+        </div>
+      <div>
+        <div className="reach-img-col-1">
+            
+            <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="300"
+        data-aos-offset="200">
+              <img src="img/animation-img.png" alt="" />
+            </div>
+            <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        data-aos-offset="200">
+              <img src="img/office-5k.jpg" alt="" />
+            </div>
+            
+          </div>
+          <div className="reach-img-col-2"
+           data-aos="fade-up"
+           data-aos-easing="linear"
+           data-aos-duration="500"
+           data-aos-offset="150">
+            <img src="img/award.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <div className="testimonial"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1000">
         <div className="testimonial-row">
           <div className="testimonial-col">
             <div className="test-img">
@@ -164,7 +166,7 @@ const Joinus = () => {
           <div className="testimonial-col">
             <div className="test-content">
               <em
-                >Diablo Media is a staple in the affiliate industry. But what makes the company stand alone is its insatiable desire to invest in its own employees through coaching, development, technology, and internal mobility. I have experienced this first-hand through my years at Diablo.</em
+                >Reach MBN is a staple in the affiliate industry. But what makes the company stand alone is its insatiable desire to invest in its own employees through coaching, development, technology, and internal mobility. I have experienced this first-hand through my years at Reach MBN.</em
               >
               <p>– Andrew</p>
             </div>
@@ -173,7 +175,7 @@ const Joinus = () => {
       </div>
      
   
-      <div className="current-opn">
+      {/* <div className="current-opn">
         <div className="current-text">
           <h3>WORK WITH US</h3>
         <h1>Current Openings</h1>
@@ -196,7 +198,7 @@ const Joinus = () => {
             <a href="/">READ MORE</a>
           </div>
         </div>
-      </div>
+      </div> */}
 
     <div className="policy" >
       <div className="policy-row">

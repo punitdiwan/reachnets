@@ -12,66 +12,13 @@ const Contactus = () => {
         <div className="svg"></div>
       </div> */}
 
-
-     {/* <div className="dia-header">
-      <div className="logo">
-        <img src="img/diablo-logo-removebg-preview.png" alt="logo not found" />
-        <span><b>diablo</b>media</span>
-        </div>
-      </div>
-
-
-       <div className='navbar'>
-       <i className="menu-icon ri-menu-3-line" onClick={()=>setShow(true)}></i>
-       </div>
-
-
-     {
-        show ?  (<div className="navbar" id="nav-bar">
-        <div className="menu-bar">
-          <div>
-            <h4>NAVIGATE</h4>
-            <br />
-            <br />
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/joinus">Join Us</Link></li>
-            <li><Link to="/contactus">Contact</Link></li>
-          </div>
-        </div>
-        <div className="connect-bar">
-          <div>
-            <h4>CONNECT</h4>
-            <br />
-            <br />
-            <p>
-              3001 Bringhton Blvd.<br />
-              Suite 769<br />Denver, CO 80216<br />USA
-            </p>
-            <br />
-            <p>+1 3033054052</p>
-            <br />
-            <p>hello@diablomedia.com</p>
-            <br />
-
-            <div className="contact-icon">
-              <i className="ri-linkedin-box-fill"></i>
-              <i className="ri-facebook-box-fill"></i>
-              <i className="ri-instagram-fill"></i>
-              <i className="ri-twitter-fill"></i>
-            </div>
-            <br />
-            <button>PUBLISHERS</button>
-          </div>
-        </div>
-        <i className="close-icon ri-close-line" onClick={()=>setShow(false)}></i>
-      </div>) : ''
-     } */}
    
     
     
-    <div className="header-con m-top">
+    <div className="header-con m-top"
+    data-aos="fade-up"
+    data-aos-easing="linear"
+     data-aos-duration="3000">
       <h1 className="ser-font">CONTACT</h1>
       <h2 className="col-white">Get In Touch</h2>
       <p>
@@ -100,14 +47,15 @@ const Contactus = () => {
             <h4>MAILING ADDRESS</h4>
             <br />
             <p>
-              3001 Bringhton Blvd.<br />
-              Suite 769<br />Denver, CO 80216<br />USA
+            Haiderpur, Delhi
+             <br />
+             www.reachmbn.com<br />customercare@reachmbn.com
             </p>
             <br />
             <h4>CONNECT</h4>
             <br />
-            <p>+1 3033054052</p>
-            <p>hello@diablomedia.com</p>
+            <p>Phone & Fax </p>
+            <p>customercare@reachmbn.com</p>
             <br />
 
             <h4>SOCIAL</h4>

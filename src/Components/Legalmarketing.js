@@ -17,7 +17,10 @@ const Legalmarketing = () => {
 
 
 
-    <div className="header-con">
+    <div className="header-con"
+    data-aos="fade-up"
+    data-aos-easing="linear"
+     data-aos-duration="3000">
         <h1 className="ser-font">SERVICES</h1>
         <h2 className="col-white">Legal Marketing
       </h2>
@@ -65,7 +68,11 @@ const Legalmarketing = () => {
 
       <div className="facebook">
         <div className="facebook-row">
-            <div className="facebook-col">
+            <div className="facebook-col" 
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-offset="100"
+            data-aos-easing="linear">
                 <img src="img/Legal-Facebook.svg" alt="" />
               </div>
           <div className="facebook-col">
@@ -125,7 +132,10 @@ const Legalmarketing = () => {
         </div>
       </div>
 
-      <div className="testimonial">
+      <div className="testimonial"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1000">
         <div className="testimonial-row">
           <div className="testimonial-col">
             <div className="test-img">
@@ -154,25 +164,18 @@ const Legalmarketing = () => {
             </p>
            <div className="btn-law"> <a  href="/">VISIT LAW SCOUT</a></div>
           </div>
-          <div className="digital-col law-scout-col">
+          <div className="digital-col law-scout-col"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-offset="100"
+          data-aos-easing="linear">
             <img src="img/legal-col.svg" alt="" />
           </div>
         </div>
       </div>
 
-
-      <div className="touch-today">
-      <div className="btn-touch">
-        <a href="/">GET IN TOUCH TODAY</a>
-      </div>
-      <div className="touch-content">
-        <h2>Learn What Other Services Reach MBN Has to Offer</h2>
-      </div>
-      </div>
-
-     
-     <Capabilities/>
-    
+  
+      <Capabilities/>
       <Footer/>
 
     </>

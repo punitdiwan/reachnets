@@ -4,7 +4,23 @@ import { NavLink } from 'react-router-dom'
 const Capabilities = () => {
   return (
     <>
-    <div className="touch-today">
+    
+      <div className="touch-today">
+      <div className="btn-touch">
+        <a href="/">GET IN TOUCH TODAY</a>
+      </div>
+      <div className="touch-content" 
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+           data-aos-easing="linear">
+        <h2>Learn What Other Services Reach MBN Has to Offer</h2>
+      </div>
+      </div>
+
+    <div className="touch-today"
+    data-aos="zoom-in"
+    data-aos-duration="1000"
+         data-aos-easing="linear">
       <div className="touch-row">
         <div className="touch-col">
           <NavLink  to="/dataManagment"> <img src="img/Data-Management.svg" alt="" /></NavLink>

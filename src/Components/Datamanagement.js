@@ -17,10 +17,10 @@ const Datamanagement = () => {
 
 
 
-   
-
-
-    <div className="header-con">
+    <div className="header-con"
+    data-aos="fade-up"
+    data-aos-easing="linear"
+     data-aos-duration="3000">
       <h1 className="ser-font">SERVICES</h1>
       <h2 className="col-white">Data Management</h2>
       <p>Transforming data into actionable intelligence.</p>
@@ -67,7 +67,11 @@ const Datamanagement = () => {
             multi-channel marketing solutions.
           </p>
         </div>
-        <div className="digital-col">
+        <div className="digital-col"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        data-aos-offset="100"
+        data-aos-easing="linear">
           <img src="img/Data-Management (1).svg" alt="" />
         </div>
       </div>
@@ -138,7 +142,11 @@ const Datamanagement = () => {
     
     <div className="data-monitor">
       <div className="data-monitor-row">
-        <div className="data-monitor-col">
+        <div className="data-monitor-col"
+         data-aos="fade-right"
+         data-aos-duration="1500"
+         data-aos-offset="100"
+         data-aos-easing="linear">
           <img src="img/Data-Monitor.svg" alt="" />
         </div>
         <div className="data-monitor-col">
@@ -239,19 +247,9 @@ const Datamanagement = () => {
         </div>
       </div>
     </div>
-
-    <div className="touch-today">
-      <div className="btn-touch">
-        <a href="/">GET IN TOUCH TODAY</a>
-      </div>
-      <div className="touch-content">
-        <h2>Learn What Other Services Reach MBN Has to Offer</h2>
-      </div>
-      </div>
        
-       <Capabilities/>
-
-  <Footer/>
+<Capabilities/>
+<Footer/>
     
     </>
   )

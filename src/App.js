@@ -17,7 +17,7 @@ function App() {
     <>
      <BrowserRouter>
      <Routes>
-      <Route path='/' element={<Home/>} />
+      <Route path='/' element={<Home/>}/>
       <Route path='/services' element={<Services/>}/>
       <Route path='/about' element={<About/>}/> 
       <Route path='/joinus' element={<Joinus/>} />
@@ -48,7 +48,3 @@ function App() {
 export default App;
 
 
-
-// https://github.com/punitdiwan/Reach-MBN.git 
-
-// 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 

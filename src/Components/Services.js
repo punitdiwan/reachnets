@@ -13,67 +13,13 @@ const Services = () => {
       <div className="svg"></div>
     </div> */}
 
-
-
-      {/* <div className="dia-header">
-      <div className="logo">
-        <img src="img/diablo-logo-removebg-preview.png" alt="logo not found" />
-        <span><b>diablo</b>media</span>
-      </div>
-    </div>
-
-       <div className='navbar'>
-       <i className="menu-icon ri-menu-3-line" onClick={()=>setShow(true)}></i>
-       </div>
-
-
-     {
-        show ?  (<div className="navbar" id="nav-bar">
-        <div className="menu-bar">
-          <div>
-            <h4>NAVIGATE</h4>
-            <br />
-            <br />
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/joinus">Join Us</Link></li>
-            <li><Link to="/contactus">Contact</Link></li>
-          </div>
-        </div>
-        <div className="connect-bar">
-          <div>
-            <h4>CONNECT</h4>
-            <br />
-            <br />
-            <p>
-              3001 Bringhton Blvd.<br />
-              Suite 769<br />Denver, CO 80216<br />USA
-            </p>
-            <br />
-            <p>+1 3033054052</p>
-            <br />
-            <p>hello@diablomedia.com</p>
-            <br />
-
-            <div className="contact-icon">
-              <i className="ri-linkedin-box-fill"></i>
-              <i className="ri-facebook-box-fill"></i>
-              <i className="ri-instagram-fill"></i>
-              <i className="ri-twitter-fill"></i>
-            </div>
-            <br />
-            <button>PUBLISHERS</button>
-          </div>
-        </div>
-        <i className="close-icon ri-close-line" onClick={()=>setShow(false)}></i>
-      </div>) : ''
-     } */}
    
 
 
    
-    <div className="header-con">
+    <div className="header-con" data-aos="fade-up"
+    data-aos-easing="linear"
+     data-aos-duration="3000">
       <h1 className="ser-font">SERVICES</h1>
       <h2 className="col-white">
         Offering Performance Marketing Services Built
@@ -134,7 +80,10 @@ const Services = () => {
     <div className="data-manage">
       <div className="data-row">
         <div className="data-col">
-          <div>
+          <div data-aos="fade-right"
+           data-aos-offset="150"
+            data-aos-easing="linear"
+           data-aos-duration="500">
             <img src="img/Data-Management.svg" alt="" />
           </div>
           <div className="data-pad">
@@ -159,13 +108,19 @@ const Services = () => {
               <Link to="/">FOR PUBLISHERS</Link>
             </div>
           </div>
-          <div>
+          <div data-aos="fade-left"
+           data-aos-offset="150"
+            data-aos-easing="linear"
+           data-aos-duration="500">
             <img src="img/affiliate-services.svg" alt="img note found" />
           </div>
         </div>
 
         <div className="data-col m-top">
-          <div>
+          <div data-aos="fade-right"
+           data-aos-offset="150"
+            data-aos-easing="linear"
+           data-aos-duration="500">
             <img src="img/Service-Legal-Services.svg" alt="" />
           </div>
           <div className="data-pad">
@@ -188,13 +143,19 @@ const Services = () => {
             </p>
             <Link to="/leadgeneration">LEARN MORE</Link>
           </div>
-          <div>
+          <div data-aos="fade-left"
+           data-aos-offset="150"
+            data-aos-easing="linear"
+           data-aos-duration="500">
             <img src="img/Service-Lead-Generation.svg" alt="img note found" />
           </div>
         </div>
 
         <div className="data-col">
-          <div>
+          <div data-aos="fade-right"
+           data-aos-offset="150"
+            data-aos-easing="linear"
+           data-aos-duration="500">
             <img src="img/Service-Media-Buying.svg" alt="img note found" />
           </div>
           <div className="data-pad">
@@ -210,7 +171,11 @@ const Services = () => {
       </div>
     </div>
 
-    <div className="testimonial">
+    <div className="testimonial" 
+    data-aos="fade-up"
+    data-aos-offset="200"
+     data-aos-easing="linear"
+     data-aos-duration="1000">
       <div className="testimonial-row">
         <div className="testimonial-col">
           <div className="test-img">
@@ -219,20 +184,19 @@ const Services = () => {
         </div>
         <div className="testimonial-col">
           <div className="test-content">
-            <em
-              >It has been a pleasure to work with  Reach MBN over the past 16
+            <em>It has been a pleasure to work with      Reach MBN over the past 16
               months. During that time we have been able to scale our
               performance marketing efforts and have discovered the power of
               performance based Email. Their KPI s are so great that we measure
-              and hold our new Email vendors to  Reach MBN KPI averages.</em
-            >
+              and hold our new Email vendors to  Reach MBN KPI averages.</em>
             <p>Christine D.</p>
           </div>
         </div>
       </div>
     </div>
 
-     <Footer/>
+  <Footer/>
+
     </>
   )
 }

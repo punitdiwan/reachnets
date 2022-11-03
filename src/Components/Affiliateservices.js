@@ -16,7 +16,10 @@ const Affiliateservices = () => {
       </div> */}
 
 
-    <div className="header-con">
+    <div className="header-con"
+    data-aos="fade-up"
+    data-aos-easing="linear"
+     data-aos-duration="3000">
         <h1 className="ser-font">SERVICES</h1>
         <h2 className="col-white">Advertiser Affiliate Services
       </h2>
@@ -48,7 +51,11 @@ const Affiliateservices = () => {
               clients.
             </p>
           </div>
-          <div className="digital-col strategy-col" >
+          <div className="digital-col strategy-col" 
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-offset="100"
+          data-aos-easing="linear">
             <img src="img/Affiliate-Strategy.svg" alt="" />
           </div>
         </div>
@@ -71,7 +78,10 @@ const Affiliateservices = () => {
           
     <div className="data-monitor">
         <div className="data-monitor-row">
-          <div className="data-monitor-col">
+          <div className="data-monitor-col" data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-offset="100"
+        data-aos-easing="linear">
             <img src="img/Affiliate-Meeting.svg" alt="" />
           </div>
           <div className="data-monitor-col">
@@ -130,8 +140,10 @@ const Affiliateservices = () => {
       </div>
   
 
-
-      <div className="testimonial">
+      <div className="testimonial"
+      data-aos="fade-up"
+      data-aos-easing="linear"
+      data-aos-duration="1000">
         <div className="testimonial-row">
           <div className="testimonial-col">
             <div className="test-img">
@@ -156,26 +168,18 @@ const Affiliateservices = () => {
               Built from the ground up, we have continually evolved with the industry. Our proprietary tracking platform offers accurate real-time analytics and reporting, as well as a full API for accessing important data and marketing assets. With total control over our proprietary technologies, we provide greater stability and zero restrictions on campaign integration. We can publish and test multiple campaign iterations side by side without limiting custom tracking and reporting.
             </p>
           </div>
-          <div className="digital-col " >
+          <div className="digital-col " 
+          data-aos="fade-left"
+          data-aos-duration="1500"
+          data-aos-offset="100"
+          data-aos-easing="linear">
             <img src="img/Affiliate-UI.svg" alt="" />
           </div>
         </div>
       </div>
 
-
-  
-      <div className="touch-today">
-      <div className="btn-touch">
-        <a href="/">GET IN TOUCH TODAY</a>
-      </div>
-      <div className="touch-content">
-        <h2>Learn What Other Services Reach MBN Has to Offer</h2>
-      </div>
-      </div>
-
-     <Capabilities/>
-  
-  <Footer/>
+ <Capabilities/>
+ <Footer/>
 
     </>
   )

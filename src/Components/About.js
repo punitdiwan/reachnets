@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-// import { Link } from 'react-router-dom'
 import Footer from './Footer'
 import Header from './Header'
 
@@ -15,62 +14,6 @@ const About = () => {
       <div className="svg"></div>
     </div> */}
     
-
-   {/* <div className="dia-header">
-      <div className="logo">
-        <img src="img/diablo-logo-removebg-preview.png" alt="logo not found" />
-        <span><b>diablo</b>media</span>
-      </div>
-    </div>
-
-       <div className='navbar'>
-       <i className="menu-icon ri-menu-3-line" onClick={()=>setShow(true)}></i>
-       </div>
-
-     {
-        show ? (<div className="navbar" id="nav-bar">
-        <div className="menu-bar">
-          <div>
-            <h4>NAVIGATE</h4>
-            <br />
-            <br />
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/services">Services</Link></li>
-            <li><Link to="/about">About</Link></li>
-            <li><Link to="/joinus">Join Us</Link></li>
-            <li><Link to="/contactus">Contact</Link></li>
-          </div>
-        </div>
-        <div className="connect-bar">
-          <div>
-            <h4>CONNECT</h4>
-            <br />
-            <br />
-            <p>
-              3001 Bringhton Blvd.<br />
-              Suite 769<br />Denver, CO 80216<br />USA
-            </p>
-            <br />
-            <p>+1 3033054052</p>
-            <br />
-            <p>hello@diablomedia.com</p>
-            <br />
-
-            <div className="contact-icon">
-              <i className="ri-linkedin-box-fill"></i>
-              <i className="ri-facebook-box-fill"></i>
-              <i className="ri-instagram-fill"></i>
-              <i className="ri-twitter-fill"></i>
-            </div>
-            <br />
-            <button>PUBLISHERS</button>
-          </div>
-        </div>
-        <i className="close-icon ri-close-line" onClick={()=>setShow(false)}></i>
-      </div>) : ''
-     }
-     */}
-
 
     <div className="header-con">
         <h1 className="ser-font">ABOUT</h1>
@@ -95,7 +38,7 @@ const About = () => {
             <div className="work-col">
                 <div className="work-space">
                     <p>Our passionate team works smarter, takes a creative approach to solving problems, and raises the standard of excellence for what a performance marketing partner can do for your business.</p>
-                    <p>As a team, we nurture an environment of trust built on respect, authentic communication, and an insatiable desire to serve our people and clients. The culture at Diablo is what binds our organization together.</p>
+                    <p>As a team, we nurture an environment of trust built on respect, authentic communication, and an insatiable desire to serve our people and clients. The culture at Reach MBN is what binds our organization together.</p>
                 </div>
                 <div>
                     <h1>Our Mission</h1>
@@ -103,7 +46,9 @@ const About = () => {
                 </div>
             </div>
             <div className="work-col">
-                <div>
+                <div data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-easing="linear">
                     <img src="img/diablo-conference-768x1024.jpg" alt="" />
                 </div>
             </div>
@@ -184,6 +129,49 @@ const About = () => {
 
 
 
+     <div className="reach-img">
+      <div className="reach-img-row">
+        <div className="reach-img-col"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        data-aos-offset="200">
+            <img src="img/diablo-RiNo-5k-2021.jpg" alt="" />
+          </div>
+        <div className="reach-img-col"
+        data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="300"
+        data-aos-offset="200">
+          <img src="img/image-68.png" alt="" />
+        </div>
+      <div>
+        <div className="reach-img-col-1">
+            <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="300"
+        data-aos-offset="200">
+              <img src="img/office-5k.jpg" alt="" />
+            </div>
+            <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        data-aos-offset="200">
+              <img src="img/animation-img.png" alt="" />
+            </div>
+            
+          </div>
+          <div className="reach-img-col-2"
+          data-aos="fade-up"
+          data-aos-easing="linear"
+          data-aos-duration="500"
+          data-aos-offset="150">
+            <img src="img/award.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
      <div className="award">
         <div className="award-row">
             <div className="award-col-1">
@@ -192,7 +180,10 @@ const About = () => {
                 <p> Reach MBN is a two-time winner of Inc. Best Companies to Work For, three-time winner of Colorado Companies to Watch, four-time winner of the Inc 5000, and a six-time winner of Colorado Top 250 Private Companies.</p>
                 </div>
             </div>
-            <div className="award-col-2">
+            <div className="award-col-2"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="800">
                 <img src="img/Inc_5000-logo.svg" alt="" />
                 <img className="award-img-2" src="img/colorado-biz-mag.svg" alt="" />
             </div>
@@ -203,7 +194,10 @@ const About = () => {
 
     <div className="history">
         <div className="history-row">
-            <div className="history-col-1">
+            <div className="history-col-1"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-easing="linear">
                 <img src="img/benmike.jpg" alt="" />
             </div>
             <div className="history-col-2">
@@ -226,8 +220,11 @@ const About = () => {
     </div>
 
     <div className="team-meet">
-        <div className="team-text">
-           <div>
+        <div className="team-text"
+        >
+           <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1000">
             <h1>Meet the Team</h1>
             <p>Meet the people behind your current and future marketing domination.</p>
            <a href="/">MEET THE TEAM</a>
