@@ -11,9 +11,9 @@ const Datamanagement = () => {
     <>
           <Header/>
 
-      {/* <div className="dia-img">
+      <div className="dia-img">
             <div className="svg"></div>
-       </div> */}
+       </div>
 
 
 
@@ -21,7 +21,7 @@ const Datamanagement = () => {
     data-aos="fade-up"
     data-aos-easing="linear"
      data-aos-duration="3000">
-      <h1 className="ser-font">SERVICES</h1>
+      <p className="ser-font">SERVICES</p>
       <h2 className="col-white">Data Management</h2>
       <p>Transforming data into actionable intelligence.</p>
     </div>

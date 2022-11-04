@@ -11,9 +11,9 @@ const Home = () => {
     <>
     <Header/>
     
-     {/* <div className="dia-img">
+     <div className="dia-img">
         <div className="svg"></div>
-     </div>    */}
+     </div>   
 
 
     <div className="header-con"  
@@ -24,7 +24,7 @@ const Home = () => {
       <h1>Making Connections</h1>
       <h2 className="col-white">Delivering Results</h2>
       <p>
-        We are <em>ReachMBN,</em> a no-lomt data & technology-driven performance marketing agency.
+        We are <em>Reach MBN,</em> a no-lomt data & technology-driven performance marketing agency.
       </p>
     </div>
 
@@ -72,7 +72,7 @@ const Home = () => {
      data-aos-anchor-placement="top-bottom"
      data-aos-easing="linear">
       <p>CAPABILITIES</p>
-      <h1>
+      <h1 className='capbility-h1'>
         Delivering effective, data and technology-driven marketing services.
         Period.
       </h1>
@@ -80,37 +80,35 @@ const Home = () => {
       <div className="capabilities-row">
         <div className="capabilities-col">
           <NavLink to='/dataManagment'><img src="img/Data-Management.svg" alt="" /></NavLink>
-         <NavLink to='/dataManagment'><h1>Data Management</h1></NavLink>
+         <NavLink to='/dataManagment'><h3>Data Management</h3></NavLink>
         </div>
         
         <div className="capabilities-col">
         <NavLink to='/affiliateservice'><img src="img/affiliate-services.svg" alt="" /></NavLink>
-          <NavLink to='/affiliateservice'><h1>Affiliate Services</h1></NavLink>
+          <NavLink to='/affiliateservice'><h3>Affiliate Services</h3></NavLink>
         </div>
 
        
         <div className="capabilities-col">
         <NavLink to='/legalmarketing'><img src="img/Service-Legal-Services.svg" alt="" /></NavLink>
-        <NavLink to='/legalmarketing'><h1>Legal Marketing</h1></NavLink>
+        <NavLink to='/legalmarketing'><h3>Legal Marketing</h3></NavLink>
           
         </div>
 
         <div className="capabilities-col">
         <NavLink to='/leadgeneration'> <img src="img/Service-Lead-Generation.svg" alt="" /></NavLink>
-          <NavLink to='/leadgeneration'><h1>Lead Generation</h1></NavLink>
+          <NavLink to='/leadgeneration'><h3>Lead Generation</h3></NavLink>
         </div>
 
         <div className="capabilities-col">
         <NavLink to='/mediabuying'><img src="img/Service-Media-Buying.svg" alt="" /></NavLink>
-          <NavLink to='/mediabuying'><h1>Media Buying</h1></NavLink>
+          <NavLink to='/mediabuying'><h3>Media Buying</h3></NavLink>
           
         </div>
       </div>
       <Link to='/services'><button  className="cap-btn">SEE THE REACH MBN DIFFERENCE</button> </Link>
     </section>
 
-
-    
 
     <div className="about">
     <div className="about-row">
@@ -129,7 +127,7 @@ const Home = () => {
         data-aos-duration="1000"
         data-aos-easing="linear"
         data-aos-offset="300">
-        <img src="https://pbs.twimg.com/media/FdmeQxcWYAUdi1Q?format=jpg&name=large" alt="" />
+        <img src="img/animation-img.png" alt="" />
       </div>
     </div>
   </div>

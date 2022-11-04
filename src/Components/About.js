@@ -10,13 +10,13 @@ const About = () => {
     <>
     <Header/>
 
-     {/* <div className="dia-img">
+     <div className="dia-img">
       <div className="svg"></div>
-    </div> */}
+    </div>
     
 
     <div className="header-con">
-        <h1 className="ser-font">ABOUT</h1>
+        <p className="ser-font">ABOUT</p>
         <h2 className="col-white">Who We Are</h2>
         <p>
           We breathe strategy, we sweat data, we drive results, and  most importantly, we like to have fun.
@@ -49,7 +49,7 @@ const About = () => {
                 <div data-aos="fade-left"
               data-aos-duration="1500"
               data-aos-easing="linear">
-                    <img src="img/diablo-conference-768x1024.jpg" alt="" />
+                    <img src="img/image-68.png" alt="" />
                 </div>
             </div>
         </div>

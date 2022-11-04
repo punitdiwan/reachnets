@@ -11,16 +11,16 @@ const Affiliateservices = () => {
     <>
        <Header/>
 
-     {/* <div className="dia-img">
+     <div className="dia-img">
         <div className="svg"></div>
-      </div> */}
+      </div>
 
 
     <div className="header-con"
     data-aos="fade-up"
     data-aos-easing="linear"
      data-aos-duration="3000">
-        <h1 className="ser-font">SERVICES</h1>
+        <p className="ser-font">SERVICES</p>
         <h2 className="col-white">Advertiser Affiliate Services
       </h2>
         <p>Connect to new audiences at scale.</p>

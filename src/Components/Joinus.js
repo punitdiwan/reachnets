@@ -10,16 +10,16 @@ const Joinus = () => {
     <Header/>
 
 
-    {/* <div className="dia-img">
+    <div className="dia-img">
       <div className="svg"></div>
-    </div> */}
+    </div>
 
 
         <div className="header-con m-top"
         data-aos="fade-up"
         data-aos-easing="linear"
          data-aos-duration="3000">
-          <h1 className="ser-font">CAREERS</h1>
+          <p className="ser-font">CAREERS</p>
           <h2 className="col-white">join Reach MBN </h2>
         </div>
     
