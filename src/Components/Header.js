@@ -9,15 +9,15 @@ const Header = () => {
     
   return (
     <>
-   <div className="dia-img">
+   {/* <div className="dia-img">
         <div className="svg"></div>
-     </div>   
+     </div>    */}
 
       <div className="dia-header">
-       <div className="logo">
-        <img src="img/logo.png" alt="logo not found" />
-        </div> 
-    </div>
+         <div className="logo">
+            <img src="img/logo.png" alt="logo not found" />
+         </div> 
+      </div>
 
     <div className='navbar'>
        <i className="menu-icon ri-menu-3-line" onClick={()=>setShow(true)}></i>
@@ -25,8 +25,14 @@ const Header = () => {
 
       {
         show ? (<div className="navbar">
+          
         <div className="menu-bar" >
           <div onClick={()=>setShow(false)}>
+          <div className="dia-header">
+         <div className="logo">
+            <img src="img/logo.png" alt="logo not found" />
+         </div> 
+      </div>
             <h4>NAVIGATE</h4>
             <br />
             <br />

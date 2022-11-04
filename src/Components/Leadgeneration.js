@@ -12,9 +12,9 @@ const Leadgeneration = () => {
     
       <Header/>
 
-    {/* <div className="dia-img">
+    <div className="dia-img">
       <div className="svg"></div>
-    </div> */}
+    </div>
 
     
 
@@ -22,7 +22,7 @@ const Leadgeneration = () => {
     data-aos="fade-up"
     data-aos-easing="linear"
      data-aos-duration="3000">
-        <h1 className="ser-font">SERVICES</h1>
+        <p className="ser-font">SERVICES</p>
         <h2 className="col-white">Lead Generation
       </h2>
         <p>Get quality leads, not just traffic.</p>

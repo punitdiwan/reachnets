@@ -10,13 +10,16 @@ import Joinus from './Components/Joinus';
 import Leadgeneration from './Components/Leadgeneration';
 import Legalmarketing from './Components/Legalmarketing';
 import Mediabuying from './Components/Mediabuying';
+import ScrollToTop from './Components/ScrollToTop';
 import Services from './Components/Services';
 
 function App() {
   return (
     <>
      <BrowserRouter>
+     <ScrollToTop/>
      <Routes>
+
       <Route path='/' element={<Home/>}/>
       <Route path='/services' element={<Services/>}/>
       <Route path='/about' element={<About/>}/> 
@@ -24,13 +27,11 @@ function App() {
       <Route path='/contactus' element={<Contactus/>} />
       
       <Route path='/dataManagment' element={<Datamanagement/>} />
-
       <Route path='/affiliateservice' element={<Affiliateservices/> } />
-
       <Route path='/legalmarketing' element={<Legalmarketing/>} />
-
       <Route path='/leadgeneration' element={<Leadgeneration/> } />
       <Route path='/mediabuying' element={<Mediabuying/>} />
+
      </Routes>
      </BrowserRouter>
 

@@ -9,21 +9,18 @@ const Services = () => {
     <>
     <Header/>
 
-    {/* <div className="dia-img">
-      <div className="svg"></div>
-    </div> */}
+    <div className="ser-img">
+      <div className="ser-svg"></div>
+    </div>
 
    
-
-
    
     <div className="header-con" data-aos="fade-up"
     data-aos-easing="linear"
      data-aos-duration="3000">
-      <h1 className="ser-font">SERVICES</h1>
-      <h2 className="col-white">
-        Offering Performance Marketing Services Built
-        to Deliver
+      <p className="ser-font ser-mtop">SERVICES</p>
+      <h2 className="col-white" id='content-right'>
+        Offering Performance Marketing Services Built to Deliver
       </h2>
       <p >
         Grow your client base with data-driven and targeted performance

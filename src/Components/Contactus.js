@@ -8,9 +8,9 @@ const Contactus = () => {
     <>
        <Header/>
 
-      {/* <div className="dia-img">
+      <div className="dia-img">
         <div className="svg"></div>
-      </div> */}
+      </div>
 
    
     
@@ -19,7 +19,7 @@ const Contactus = () => {
     data-aos="fade-up"
     data-aos-easing="linear"
      data-aos-duration="3000">
-      <h1 className="ser-font">CONTACT</h1>
+      <p className="ser-font">CONTACT</p>
       <h2 className="col-white">Get In Touch</h2>
       <p>
         It’s a big data digital world out there, we can help you find  your
