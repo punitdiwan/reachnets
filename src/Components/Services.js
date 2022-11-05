@@ -34,7 +34,7 @@ const Services = () => {
     <div className="offers">
       <div className="offers-h">
         <h1>
-          Reach MBN offers a unique mix of services <br />
+          Reach MBN offers a unique mix of services
           proven to increase leads, sales, and revenue.
         </h1>
       </div>
@@ -78,9 +78,9 @@ const Services = () => {
       <div className="data-row">
         <div className="data-col">
           <div data-aos="fade-right"
-           data-aos-offset="150"
+           data-aos-offset="100"
             data-aos-easing="linear"
-           data-aos-duration="500">
+           data-aos-duration="800">
             <img src="img/Data-Management.svg" alt="" />
           </div>
           <div className="data-pad">
@@ -98,7 +98,7 @@ const Services = () => {
         <div className="data-col data-col-reverse">
           <div>
             <h1>Affiliate Services</h1>
-            <p> Home grown exclusive offers Industry leading performance Competitive weekly payouts Dedicated Account Support White Label and iframe technology Real Time Stats
+            <p className='affilate-right'> Home grown exclusive offers Industry leading performance Competitive weekly payouts Dedicated Account Support White Label and iframe technology Real Time Stats
             </p>
             <div className="line-br">
               <Link to="/affiliateservice">FOR ADVERTISERS</Link>
@@ -106,18 +106,18 @@ const Services = () => {
             </div>
           </div>
           <div data-aos="fade-left"
-           data-aos-offset="150"
+           data-aos-offset="100"
             data-aos-easing="linear"
-           data-aos-duration="500">
+           data-aos-duration="800">
             <img src="img/affiliate-services.svg" alt="img note found" />
           </div>
         </div>
 
         <div className="data-col m-top">
           <div data-aos="fade-right"
-           data-aos-offset="150"
+           data-aos-offset="100"
             data-aos-easing="linear"
-           data-aos-duration="500">
+           data-aos-duration="800">
             <img src="img/Service-Legal-Services.svg" alt="" />
           </div>
           <div className="data-pad">
@@ -133,7 +133,7 @@ const Services = () => {
         </div>
 
         <div className="data-col data-col-reverse">
-          <div className="data-pad">
+          <div>
             <h1>Lead Generation</h1>
             <p>
             Owned and Operated Brands Industry Leading Conversions Price Reject, CPF, Static buying Dedicated Account Support In House Data Analytics Homegrown Technology
@@ -141,18 +141,18 @@ const Services = () => {
             <Link to="/leadgeneration">LEARN MORE</Link>
           </div>
           <div data-aos="fade-left"
-           data-aos-offset="150"
+           data-aos-offset="100"
             data-aos-easing="linear"
-           data-aos-duration="500">
+           data-aos-duration="800">
             <img src="img/Service-Lead-Generation.svg" alt="img note found" />
           </div>
         </div>
 
         <div className="data-col">
           <div data-aos="fade-right"
-           data-aos-offset="150"
+           data-aos-offset="100"
             data-aos-easing="linear"
-           data-aos-duration="500">
+           data-aos-duration="800">
             <img src="img/Service-Media-Buying.svg" alt="img note found" />
           </div>
           <div className="data-pad">
@@ -168,6 +168,7 @@ const Services = () => {
       </div>
     </div>
 
+
     <div className="testimonial" 
     data-aos="fade-up"
     data-aos-offset="200"
@@ -181,11 +182,13 @@ const Services = () => {
         </div>
         <div className="testimonial-col">
           <div className="test-content">
+            
             <em>It has been a pleasure to work with      Reach MBN over the past 16
               months. During that time we have been able to scale our
               performance marketing efforts and have discovered the power of
               performance based Email. Their KPI s are so great that we measure
               and hold our new Email vendors to  Reach MBN KPI averages.</em>
+        
             <p>Christine D.</p>
           </div>
         </div>

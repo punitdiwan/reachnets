@@ -33,6 +33,8 @@ const About = () => {
       </div>
      </div>
 
+
+
      <div className="work-smarter">
         <div className="work-row">
             <div className="work-col">
@@ -54,6 +56,7 @@ const About = () => {
             </div>
         </div>
      </div>
+
 
      <div className="we-value">
         <div className="we-row">
@@ -172,6 +175,8 @@ const About = () => {
       </div>
     </div>
 
+
+
      <div className="award">
         <div className="award-row">
             <div className="award-col-1">
@@ -209,7 +214,7 @@ const About = () => {
 
         <div className="history-row-2">
             <div className="history-col-2">
-                <p>In 2007, Reach MBN developed our own proprietary technology that tracks, analyzes, and optimizes campaigns offering our clients results they won’t get anywhere else. With the help of our experienced team, we have become a leader in delivering data-driven performance marketing strategies through our specialized technology and above and beyond service mentality.</p>
+                <p> Reach MBN developed our own proprietary technology that tracks, analyzes, and optimizes campaigns offering our clients results they won’t get anywhere else. With the help of our experienced team, we have become a leader in delivering data-driven performance marketing strategies through our specialized technology and above and beyond service mentality.</p>
                 <p>As we continue to grow each year, we remain focused on working together to deliver service that’s personal and tailored to our clients. It’s what we do, but more importantly, it’s what we believe in.</p>
             </div>
             <div className="history-col-3">
@@ -224,13 +229,14 @@ const About = () => {
         >
            <div data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="1000">
+        data-aos-duration="1000" className='meet-team-width'>
             <h1>Meet the Team</h1>
             <p>Meet the people behind your current and future marketing domination.</p>
            <a href="/">MEET THE TEAM</a>
            </div>
         </div>
     </div>
+
 
     <div className="join-diablo">
         <div className="join-text">
