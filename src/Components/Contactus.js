@@ -69,6 +69,7 @@ const Contactus = () => {
           </div>
         </div>
 
+        <div className='contact-col-wi-2'>
         <div className="contact-col-2">
           <form>
             <div className="input-row">
@@ -102,6 +103,7 @@ const Contactus = () => {
             </div>
           </form>
          
+        </div>
         </div>
       </div>
     </div>
