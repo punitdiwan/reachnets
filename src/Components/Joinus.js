@@ -17,6 +17,7 @@ const Joinus = () => {
 
         <div className="header-con m-top"
         data-aos="fade-up"
+        data-aos-offset="200"
         data-aos-easing="linear"
          data-aos-duration="3000">
           <p className="ser-font">CAREERS</p>
