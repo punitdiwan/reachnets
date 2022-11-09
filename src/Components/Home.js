@@ -18,7 +18,7 @@ const Home = () => {
 
     <div className="header-con"  
     data-aos="fade-up"
-    data-aos-offset="500"
+    data-aos-offset="200"
     data-aos-easing="linear"
      data-aos-duration="2000">
       <h1>Making Connections</h1>

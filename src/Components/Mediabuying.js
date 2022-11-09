@@ -19,6 +19,7 @@ const Mediabuying = () => {
 
     <div className="header-con"
     data-aos="fade-up"
+    data-aos-offset="200"
     data-aos-easing="linear"
      data-aos-duration="3000">
           <p className="ser-font">SERVICES</p>
