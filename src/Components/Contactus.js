@@ -35,13 +35,56 @@ const Contactus = () => {
       <div className="growth-flex">
         <p>
           Want to learn more about our services? Interested in joining our team?
-          Ready to start working together to achieve your goals? Call or fill
-          out the form below—we’re excited to hear from you!
+          Ready to start working together to achieve your goals? Call or Mail
+          out the below—we’re excited to hear from you!
         </p>
       </div>
     </div>
 
-    <div className="contact">
+
+
+
+    <section class="course">
+      {/* <h1>courses we offer</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> */}
+      <div class="row">
+        <div class="course-col">
+        <h4>MAILING ADDRESS</h4>
+            <br />
+            <p>
+            Haiderpur, Delhi
+             <br />
+             www.reachnets.com <br />
+             customercare@reachmbn.com
+            </p>
+        </div>
+        <div class="course-col">
+        <h4>CONTACT</h4>
+            <br />
+            <i class="ri-phone-fill"></i>
+            {/* <p>Phone  </p> */}
+            <p>9653018210</p>
+            <br />
+          </div>
+          <div class="course-col" >
+           
+            <h4>SOCIAL</h4>
+            <br />
+            <i className="ri-linkedin-box-fill"></i>
+            <i className="ri-facebook-box-fill"></i>
+            <i className="ri-instagram-fill"></i>
+            <i className="ri-twitter-fill"></i>
+            <br />
+            <br />
+          </div>
+      </div>
+    </section>
+
+
+
+
+
+    {/* <div className="contact">
       <div className="contact-row">
         <div className="contact-col-1">
           <div>
@@ -72,7 +115,7 @@ const Contactus = () => {
 
         <div className='contact-col-wi-2'>
         <div className="contact-col-2">
-          <form>
+          <form >
             <div className="input-row">
               <div className="input-col">
                 <div><label for="">COMPANY NAME</label></div>
@@ -107,7 +150,7 @@ const Contactus = () => {
         </div>
         </div>
       </div>
-    </div>
+    </div> */}
 
     <div className="policy">
       <div className="policy-row">
