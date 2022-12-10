@@ -2342,9 +2342,73 @@ width: 40vw;
 
 
 
-/* ------------ -----contact-------------------- */
+/* -----------------contact us-------------------- */
 
-.contact{
+.course{
+    width:80%;
+    margin: auto;
+    text-align: center;
+    /* padding-top: 100px; */
+}
+
+.row{
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.course-col{
+    flex-basis: 32%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+}
+
+.course-col h4{
+    color: #a8ccd4;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.course-col p{
+   color: #26344e;
+    font-size: 20px;
+    font-weight: 600;
+}
+.course-col i{
+    color: #a8ccd4;
+    font-size: 40px;
+}
+
+.course-col:hover{
+    box-shadow:0 0 20px 0 rgba(0,0,0,0.2)
+}
+@media (max-width: 900px){
+    .row{
+        flex-direction: column;
+    }
+}
+@media (max-width:374px) {
+    .course-col h4{
+        color: #a8ccd4;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 2px;
+    }
+    .course-col p{
+       color: #26344e;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .course-col i{
+        color: #a8ccd4;
+        font-size: 30px;
+    }
+}
+
+
+/* .contact{
     width: 100vw;
     padding: 80px 0;
 }
@@ -2374,12 +2438,12 @@ width: 40vw;
 .contact-col-1 i{
     color: #a8ccd4;
     font-size: 40px;
-}
+} */
 
 
 /* ---------------contact-form--------------- */
 
-.contact-col-wi-2{
+/* .contact-col-wi-2{
     width: 45vw;
     margin: 50px auto;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -2484,7 +2548,7 @@ label{
         font-weight: 1000;
         letter-spacing: 2px;
      }
-}
+} */
 
 
 /* ----------------Data Management---------- */
