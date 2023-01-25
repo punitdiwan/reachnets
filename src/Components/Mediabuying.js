@@ -31,7 +31,7 @@ const Mediabuying = () => {
         <div className="growth">
           <div className="growth-flex">
             <p>
-                An effective marketing strategy is built on several tactics, all of which must be supported by media buys that get the right message to the right person at the right time. At Reach MBN, we create and execute paid media campaigns measured on, and tailored to, your objectives.
+                An effective marketing strategy is built on several tactics, all of which must be supported by media buys that get the right message to the right person at the right time. At Reach NETS, we create and execute paid media campaigns measured on, and tailored to, your objectives.
             </p>
           </div>
         </div>

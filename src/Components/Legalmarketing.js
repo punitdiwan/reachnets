@@ -35,7 +35,7 @@ const Legalmarketing = () => {
       <div className="growth">
         <div className="growth-flex">
           <p>
-            Founded in 2013, Law Scout, a wholly-owned subsidiary of Reach MBN, has effectively expanded to meet our legal clients’ needs. Our Facebook marketing expertise will provide the necessary insights to increase conversions and drive ROI.
+            Founded in 2013, Law Scout, a wholly-owned subsidiary of Reach NETS, has effectively expanded to meet our legal clients’ needs. Our Facebook marketing expertise will provide the necessary insights to increase conversions and drive ROI.
           </p>
         </div>
       </div>

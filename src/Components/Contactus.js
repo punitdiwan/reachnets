@@ -55,7 +55,7 @@ const Contactus = () => {
             Haiderpur, Delhi
              <br />
              www.reachnets.com <br />
-             customercare@reachmbn.com
+             customercare@reachnets.com
             </p>
         </div>
         <div class="course-col">
@@ -155,7 +155,7 @@ const Contactus = () => {
     <div className="policy">
       <div className="policy-row">
         <div className="policy-col">
-          <p>© 2021 Reach MBN. All rights reserved.</p>
+          <p>© 2021 Reach NETS. All rights reserved.</p>
         </div>
         <div className="policy-col">
           <p>Privacy Policy • Anti-Spam</p>

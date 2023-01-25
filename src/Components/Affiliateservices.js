@@ -98,7 +98,7 @@ const Affiliateservices = () => {
 
             <div className="affiliates-h aff-f">
               <p>
-                Whether providing click to conversion data, landing page optimizations, creative recommendations, growth strategies, or even simply making sure affiliates are paid on time, Reach MBN handles the day-to-day activities of managing your affiliate program.
+                Whether providing click to conversion data, landing page optimizations, creative recommendations, growth strategies, or even simply making sure affiliates are paid on time, Reach NETS handles the day-to-day activities of managing your affiliate program.
               </p>
               <p>We have spent years developing trusted relationships with our network partners. This virtually eliminates fraud and reduces the cost of customer acquisition due to the efficiencies we’ve built. This is why so many of our partnerships last for years and years.</p>
               <h1>
@@ -111,7 +111,7 @@ const Affiliateservices = () => {
 
      
       <div className="our-promise">
-        <p>At Reach MBN, we promise our advertisers:</p>
+        <p>At Reach NETS, we promise our advertisers:</p>
   
         <div className="promise-row">
           <div className="promise-col">
@@ -153,7 +153,7 @@ const Affiliateservices = () => {
           </div>
           <div className="testimonial-col">
             <div className="test-content">
-              <em>The Team at Reach MBN has helped us build successful six figure campaigns for top brands and in addition to being great to work with, being able to drive traffic they have helped us innovate and create new offers that have been very successful for us and our publishers.</em>
+              <em>The Team at Reach NETS has helped us build successful six figure campaigns for top brands and in addition to being great to work with, being able to drive traffic they have helped us innovate and create new offers that have been very successful for us and our publishers.</em>
               <p>Bill R.</p>
             </div>
           </div>
@@ -164,7 +164,7 @@ const Affiliateservices = () => {
       <div className="digital">
         <div className="digital-row">
           <div className="digital-col strategy-col">
-            <h1>What makes Reach MBN different?</h1>
+            <h1>What makes Reach NETS different?</h1>
             <p>
               Built from the ground up, we have continually evolved with the industry. Our proprietary tracking platform offers accurate real-time analytics and reporting, as well as a full API for accessing important data and marketing assets. With total control over our proprietary technologies, we provide greater stability and zero restrictions on campaign integration. We can publish and test multiple campaign iterations side by side without limiting custom tracking and reporting.
             </p>

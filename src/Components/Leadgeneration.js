@@ -35,7 +35,7 @@ const Leadgeneration = () => {
       <div className="growth">
         <div className="growth-flex">
           <p>
-            At Reach MBN, we formulate well-planned lead generation programs tailored to your business needs and budget. Utilizing our internal media buying team and network of trusted publishers, we drive traffic to our owned and operated sites generating leads in various verticals.
+            At Reach NETS, we formulate well-planned lead generation programs tailored to your business needs and budget. Utilizing our internal media buying team and network of trusted publishers, we drive traffic to our owned and operated sites generating leads in various verticals.
           </p>
         </div>
       </div>
@@ -97,7 +97,7 @@ const Leadgeneration = () => {
               <div className="fully-opt-row">
                 <i className="ri-checkbox-multiple-line"></i>
                 <h2>
-                Reach MBN Owned & Operated Properties
+                Reach NETS Owned & Operated Properties
                 </h2>
               </div>
             </div>
@@ -114,7 +114,7 @@ const Leadgeneration = () => {
         <div className="digital-row">
           <div className="digital-col">
             <p>
-                Targeted lead generation campaigns can make all the difference in bringing your business growth, but it takes a special touch to be able to execute them. So, what makes Reach MBN different? The trick is realizing that not anyone and everyone is a lead. The mistake too many businesses make is to market to everyone when they should be focusing on just the people who are interested in their offering. We are the performance agency that connects the dots between these leads and your business. We find the holes through auditing, ideal audience identification, and then, target them using the best technologies available to capture these leads.
+                Targeted lead generation campaigns can make all the difference in bringing your business growth, but it takes a special touch to be able to execute them. So, what makes Reach NETS different? The trick is realizing that not anyone and everyone is a lead. The mistake too many businesses make is to market to everyone when they should be focusing on just the people who are interested in their offering. We are the performance agency that connects the dots between these leads and your business. We find the holes through auditing, ideal audience identification, and then, target them using the best technologies available to capture these leads.
             </p>
            
           </div>

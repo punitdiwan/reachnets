@@ -32,7 +32,7 @@ const Datamanagement = () => {
     <div className="growth">
       <div className="growth-flex">
         <p>
-          At Reach MBN, we have highly targeted demographics and
+          At Reach NETS, we have highly targeted demographics and
           psychographics on 250 million US consumers. Our team of data experts
           offer two different types of high-quality and fully compliant data.
         </p>
@@ -63,7 +63,7 @@ const Datamanagement = () => {
             clients.
           </p>
           <p>
-            Everyone has data! But Reach MBN helps you understand it. We add value
+            Everyone has data! But Reach NETS helps you understand it. We add value
             and data points to your data and then monetize your data using
             multi-channel marketing solutions.
           </p>

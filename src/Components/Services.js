@@ -35,7 +35,7 @@ const Services = () => {
     <div className="offers">
       <div className="offers-h">
         <h1>
-          Reach MBN offers a unique mix of services
+          Reach NETS offers a unique mix of services
           proven to increase leads, sales, and revenue.
         </h1>
       </div>
@@ -45,7 +45,7 @@ const Services = () => {
       <div className="offer-row">
         <div className="offer-col">
           <p>
-          Reach MBN is a data-driven performance marketing company that has
+          Reach NETS is a data-driven performance marketing company that has
             helped businesses grow for over a decade. Whether you need to
             acquire new customers, generate leads, or drive other customer
             actions—we have the tools and the expertise to get the job done. We
@@ -87,7 +87,7 @@ const Services = () => {
           <div className="data-pad">
             <h1>Data Management</h1>
             <p>
-            Reach MBN takes a unique approach to data through our owned and
+            Reach NETS takes a unique approach to data through our owned and
               operated properties and partners data feeds to help shape and
               grow our clients businesses. We take data and turn it into a
               highly targeted asset.
@@ -124,7 +124,7 @@ const Services = () => {
           <div className="data-pad">
             <h1>Legal Marketing</h1>
             <p>
-              Law Scout is a subsidiary of  Reach MBN specializing in legal
+              Law Scout is a subsidiary of  Reach NETS specializing in legal
               Facebook lead generation. Our expertise covers Social Security
               Disability, Personal Injury, Workers Compensation, Motor Vehicle
               Accidents, and Mass Tort.
@@ -184,11 +184,11 @@ const Services = () => {
         <div className="testimonial-col">
           <div className="test-content">
             
-            <em>It has been a pleasure to work with      Reach MBN over the past 16
+            <em>It has been a pleasure to work with      Reach NETS over the past 16
               months. During that time we have been able to scale our
               performance marketing efforts and have discovered the power of
               performance based Email. Their KPI s are so great that we measure
-              and hold our new Email vendors to  Reach MBN KPI averages.</em>
+              and hold our new Email vendors to  Reach NETS KPI averages.</em>
         
             <p>Christine D.</p>
           </div>
