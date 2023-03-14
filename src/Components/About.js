@@ -231,7 +231,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="award">
+      {/* <div className="award">
         <div className="award-row">
           <div className="award-col-1">
             <div>
@@ -259,7 +259,7 @@ const About = () => {
             />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="history">
         <div className="history-row">
@@ -311,7 +311,7 @@ const About = () => {
               believe in.
             </p>
           </div>
-          <div className="history-col-3">
+          {/* <div className="history-col-3">
             <h5>
               <em>A PERSONAL NOTE FROM OUR CEO, BEN SMITH :</em>
             </h5>
@@ -324,11 +324,11 @@ const About = () => {
                 them succeed.”
               </em>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
 
-      <div className="team-meet">
+      {/* <div className="team-meet">
         <div className="team-text">
           <div
             data-aos="fade-down"
@@ -344,9 +344,9 @@ const About = () => {
             <a href="/">MEET THE TEAM</a>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="join-diablo">
+      {/* <div className="join-diablo">
         <div className="join-text">
           <h1>Join The Reach NETS Family!</h1>
           <p>
@@ -356,7 +356,7 @@ const About = () => {
           </p>
           <Link to="/joinus">CURRENT OPEN POSITIONS </Link>
         </div>
-      </div>
+      </div> */}
 
       <Footer />
     </>

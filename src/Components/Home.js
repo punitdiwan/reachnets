@@ -23,13 +23,13 @@ const Home = () => {
       >
         <h1>Making Connections</h1>
         <h2 className="col-white">Delivering Results</h2>
-        <p>
+        {/* <p>
           We are <em>Reach NETS,</em> a no-lomt data & technology-driven
           performance marketing agency.
-        </p>
+        </p> */}
       </div>
 
-      <div className="bottom-logo">
+      {/* <div className="bottom-logo">
         <div className="bottom-row">
           <div className="img-2">
             <img src="img/award-1.png" alt="" />
@@ -41,7 +41,7 @@ const Home = () => {
             <img src="img/award-3.svg" alt="" />
           </div>
         </div>
-      </div>
+      </div> */}
 
       <div className="row">
         <div className="create-value">
@@ -100,14 +100,14 @@ const Home = () => {
             </NavLink>
           </div>
 
-          <div className="capabilities-col">
+          {/* <div className="capabilities-col">
             <NavLink to="/legalmarketing">
               <img src="img/Service-Legal-Services.svg" alt="" />
             </NavLink>
             <NavLink to="/legalmarketing">
               <h3>Legal Marketing</h3>
             </NavLink>
-          </div>
+          </div> */}
 
           <div className="capabilities-col">
             <NavLink to="/leadgeneration">
@@ -118,14 +118,14 @@ const Home = () => {
             </NavLink>
           </div>
 
-          <div className="capabilities-col">
+          {/* <div className="capabilities-col">
             <NavLink to="/mediabuying">
               <img src="img/Service-Media-Buying.svg" alt="" />
             </NavLink>
             <NavLink to="/mediabuying">
               <h3>Media Buying</h3>
             </NavLink>
-          </div>
+          </div> */}
         </div>
         <Link to="/services">
           <button className="cap-btn">SEE THE REACH NETS DIFFERENCE</button>
@@ -136,11 +136,11 @@ const Home = () => {
         <div className="about-row">
           <div className="about-col">
             <h1>We are more than typical, we genuinely care</h1>
-            <p>
+            {/* <p>
               Learn more about our values and history, get to know the people
               behind Reach NETS, and discover how you can join our team!
             </p>
-            <a href="/">MORE ABOUT US</a>
+            <a href="/">MORE ABOUT US</a> */}
           </div>
           <div
             className="about-col"

@@ -46,9 +46,9 @@ const Header = () => {
               <li>
                 <Link to="/about">About</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/joinus">Join Us</Link>
-              </li>
+              </li> */}
               <li>
                 <Link to="/contactus">Contact</Link>
               </li>
@@ -66,6 +66,8 @@ const Header = () => {
                 www.reachnets.com
                 <br />
                 customercare@reachnets.com
+                <br />
+                reachnetltd@gmail.com
               </p>
               <br />
               <p>+91-8929370027</p>
