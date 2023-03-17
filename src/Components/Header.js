@@ -54,7 +54,7 @@ const Header = () => {
               </li>
             </div>
           </div>
-          <div className="connect-bar">
+          {/* <div className="connect-bar">
             <div>
               <h4>CONNECT</h4>
               <br />
@@ -84,7 +84,7 @@ const Header = () => {
               <br />
               <button>PUBLISHERS</button>
             </div>
-          </div>
+          </div> */}
           <div className="navbar">
             {" "}
             <i

@@ -55,7 +55,7 @@ const Contactus = () => {
             Haiderpur, Delhi
              <br />
              www.reachnets.com <br />
-             customercare@reachnets.com
+             reachnetltd@gmail.com
             </p>
         </div>
         <div class="course-col">

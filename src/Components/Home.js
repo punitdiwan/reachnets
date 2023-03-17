@@ -29,19 +29,14 @@ const Home = () => {
         </p> */}
       </div>
 
-      {/* <div className="bottom-logo">
+      <div className="bottom-logo">
         <div className="bottom-row">
           <div className="img-2">
-            <img src="img/award-1.png" alt="" />
-          </div>
-          <div className="img-1">
-            <img src="img/Awards-2.svg" alt="" />
-          </div>
-          <div className="img-1">
-            <img src="img/award-3.svg" alt="" />
+            {/* <img src="img/award-1.png" alt="" /> */}
+            <img src="img/logo-1.jpeg" alt="" />
           </div>
         </div>
-      </div> */}
+      </div>
 
       <div className="row">
         <div className="create-value">
